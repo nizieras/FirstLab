@@ -23,8 +23,8 @@ public class Controller {
     {
         String introdusedStr = new String(stringInput.getText());
         symbolsNumText.setText(Integer.toString(introdusedStr.length()));
-        // Проверка на ввод строки
-        if(introdusedStr == "")
+        // string input check
+        if(introdusedStr.isEmpty())
             return;
         else
         {
