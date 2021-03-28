@@ -7,7 +7,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-
 public class App extends Application {
 
     @Override
@@ -15,9 +14,9 @@ public class App extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("App.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        stage.setTitle("Palindrome");
-        stage.setWidth(425);
-        stage.setHeight(125);
+        stage.setTitle("Coffee making");
+        stage.setWidth(600);
+        stage.setHeight(500);
         stage.setResizable(false);
         stage.show();
     }
